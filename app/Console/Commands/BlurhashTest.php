@@ -28,7 +28,7 @@ class BlurhashTest extends Command
      */
     public function handle()
     {
-        $blurhash = FFI::load(__DIR__ . '/../../../resources/ffi/blurhash/encode.h');
+        $blurhash = FFI::load(resource_path('ffi/blurhash/encode.h'));
         // TODO break target image down so blurhash can handle it
         // $blurhash->blurHashForPixels();
 
