@@ -1,3 +1,6 @@
+// TODO find a way to define this relative to the location of this file
+#define FFI_LIB "./resources/ffi/blurhash/encode.o"
+
 #ifndef __BLURHASH_ENCODE_H__
 #define __BLURHASH_ENCODE_H__
 
